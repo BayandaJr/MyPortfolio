@@ -15,7 +15,7 @@ export const personal = {
     'ICT Applications Development Graduate | Azure Developer Associate | AI & Cloud Technology Enthusiast',
   summary:
     'I am a motivated ICT Applications Development graduate from Walter Sisulu University with a passion for software development, cloud technologies, artificial intelligence, cybersecurity, and innovation. I enjoy building digital solutions, solving real-world problems, and continuously learning new technologies that drive business and social impact.',
-  github: 'https://github.com',
+  github: 'https://github.com/BayandaJr',
   linkedin: 'https://linkedin.com',
 }
 
