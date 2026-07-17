@@ -51,42 +51,42 @@
 }
 
 :root {
-  color-scheme: dark;
-  --background: #0f172a;
-  --foreground: #e2e8f0;
-  --card: #172033;
-  --card-foreground: #e2e8f0;
-  --popover: #172033;
-  --popover-foreground: #e2e8f0;
-  --primary: #2563eb;
-  --primary-foreground: #f8fafc;
-  --secondary: #1e293b;
-  --secondary-foreground: #e2e8f0;
-  --muted: #1e293b;
-  --muted-foreground: #94a3b8;
-  --accent: #06b6d4;
-  --accent-foreground: #04121a;
+  color-scheme: light;
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --primary: #0d9488;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #0f172a;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #14b8a6;
+  --accent-foreground: #04211d;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: rgba(148, 163, 184, 0.14);
-  --input: rgba(148, 163, 184, 0.18);
-  --ring: #2563eb;
-  --brand: #2563eb;
-  --brand-foreground: #f8fafc;
-  --accent-cyan: #06b6d4;
-  --chart-1: #2563eb;
-  --chart-2: #06b6d4;
-  --chart-3: #38bdf8;
-  --chart-4: #818cf8;
-  --chart-5: #22d3ee;
+  --border: rgba(15, 23, 42, 0.08);
+  --input: rgba(15, 23, 42, 0.12);
+  --ring: #0d9488;
+  --brand: #0d9488;
+  --brand-foreground: #ffffff;
+  --accent-cyan: #14b8a6;
+  --chart-1: #0d9488;
+  --chart-2: #14b8a6;
+  --chart-3: #2dd4bf;
+  --chart-4: #5eead4;
+  --chart-5: #0f766e;
   --radius: 0.75rem;
-  --sidebar: #0f172a;
-  --sidebar-foreground: #e2e8f0;
-  --sidebar-primary: #2563eb;
-  --sidebar-primary-foreground: #f8fafc;
-  --sidebar-accent: #1e293b;
-  --sidebar-accent-foreground: #e2e8f0;
-  --sidebar-border: rgba(148, 163, 184, 0.14);
-  --sidebar-ring: #2563eb;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0f172a;
+  --sidebar-primary: #0d9488;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f1f5f9;
+  --sidebar-accent-foreground: #0f172a;
+  --sidebar-border: rgba(15, 23, 42, 0.08);
+  --sidebar-ring: #0d9488;
 }
 
 @layer base {
@@ -103,14 +103,15 @@
 }
 
 @utility glass {
-  background: rgba(23, 32, 51, 0.55);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 10px 30px -12px rgba(15, 23, 42, 0.12);
 }
 
 @utility text-gradient {
-  background: linear-gradient(120deg, #60a5fa 0%, #2563eb 45%, #06b6d4 100%);
+  background: linear-gradient(120deg, #0f766e 0%, #0d9488 45%, #14b8a6 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
