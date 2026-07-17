@@ -136,12 +136,12 @@ export function Hero() {
             <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-primary/40 via-accent/20 to-transparent blur-2xl" />
             <div className="glass relative overflow-hidden rounded-[2rem] p-2">
               <Image
-                src="/bayanda-portrait.png"
+                src="/bayanda-photo.png"
                 alt="Portrait of Bayanda Junior Mhlwathika in a navy suit"
                 width={640}
                 height={800}
                 priority
-                className="h-auto w-full rounded-[1.5rem] object-cover"
+                className="aspect-[4/5] w-full rounded-[1.5rem] object-cover object-top"
               />
             </div>
           </motion.div>

@@ -26,11 +26,11 @@ export function About() {
               <div className="absolute -inset-3 rounded-3xl bg-gradient-to-tr from-primary/30 to-accent/20 blur-xl" />
               <div className="glass relative overflow-hidden rounded-3xl p-2">
                 <Image
-                  src="/bayanda-portrait.png"
+                  src="/bayanda-photo.png"
                   alt="Bayanda Junior Mhlwathika"
                   width={480}
                   height={600}
-                  className="h-auto w-full rounded-2xl object-cover"
+                  className="aspect-[4/5] w-full rounded-2xl object-cover object-top"
                 />
               </div>
             </div>
